@@ -31,7 +31,7 @@ module Types
       end
       markets = markets.order_by_closest_date(date) if !date.empty?
       location_object = Geocoder.search([lat, lng]).first
-      location = location_object.city + ', ' + location_object.state
+      location = "#{location_object.city}, #{location_object.state}"
       { markets: markets,
         location: location
       }
