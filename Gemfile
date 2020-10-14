@@ -10,6 +10,7 @@ gem 'faraday'
 gem 'figaro'
 gem 'geocoder'
 gem 'simplecov-shield'
+gem 'rack-cors'
 
 group :development, :test do
   gem 'rspec-rails'
