@@ -31,6 +31,6 @@ test:
 #
 production:
   <<: *default
-  database: postgresql-animated-63987
+  database: us_farmers_markets_api_production
   username: us_farmers_markets_api
   password: <%= ENV['US_FARMERS_MARKETS_API_DATABASE_PASSWORD'] %>
