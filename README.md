@@ -4,9 +4,9 @@
 
 *This [GraphQL](https://graphql.org/) API was created to replace the current [USDA National Farmers Market Directory API](https://search.ams.usda.gov/farmersmarkets/v1/svcdesc.html).*
 
+**Provides quick and easy search results across all USDA registered farmers markets, sourcing 2020 CSV data.**  
 **With a single query to this API, farmers markets can be retrieved and filtered by location, products offered, and date.**
 
-**Provides quick and easy search results across all USDA registered farmers markets, sourcing 2020 CSV data.**  
 
 ## Table of Contents:
 - [Running Locally](#running-locally)
